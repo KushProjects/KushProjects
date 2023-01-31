@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <link href="Resources/font-style.css" rel="stylesheet">
+   <title>Registration Page</title>
+   <head>
+    <img src="resources/logo.jpg" alt="Image not Supported">
+   </head> 
+   <body>
+    <h1>Register</h1>
+    <h3>Fill in your Details</h3>
+    <form action="gym.html" mode="post">
+      <label for="name">Username</label>
+      <input id="name" name='name' type="text" required>
+      <br>
+      <br>
+      <span>Gender</span>
+      <input id="answer" name='answer' type="radio" value="male">
+      <label for="answer">Male</label>
+      <input id="answer" name='answer' type="radio" value="female">
+      <label for="answer">Female</label>
+      <br>
+      <br>
+      <label for="age">Age</label>
+      <input id="age" name="age" type="number" value="Age" min='18' max='80' required>
+      <br>
+      <br>
+      <label for="Mobile no.">Mobile no.</label>
+      <input id="Mobile no." name="Mobile no." type="number" value="Mobile no." pattern="[0-9]{14,16}">
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>    
+   </body>
+</html>
